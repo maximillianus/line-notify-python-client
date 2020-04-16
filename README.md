@@ -1,5 +1,7 @@
 # Line Notify Client
 
+[<img src="https://img.shields.io/github/workflow/status/maximillianus/line-notify-python-client/Python%20application">]()
+
 
 ## Introduction
 
