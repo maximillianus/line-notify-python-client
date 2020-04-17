@@ -6,7 +6,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
-from config import LINE_NOTIFY_BASE_URL
+from src.config import LINE_NOTIFY_BASE_URL
 
 
 class LineNotify:
@@ -36,11 +36,11 @@ class LineNotify:
     
     def get_api_status(self):
         r = self.sess.get(self.LINE_STATUS_URL)
-        if r.status_code == 200:
-            print(r.json())
-        else:
-            print('HTTP Error when getting API status')
-        pass
+        resp = {
+            'status_code': r.status_code,
+            'body': r.json()
+        }
+        return resp
 
 def main():
     line = LineNotify()

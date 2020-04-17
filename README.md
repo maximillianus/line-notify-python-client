@@ -1,6 +1,6 @@
 # Line Notify Client
 
-![line-notify-python-client](https://github.com/maximillianus/line-notify-python-client/workflows/Python-application/badge.svg)
+![line-notify-python-client](https://github.com/maximillianus/line-notify-python-client/workflows/line-notify-python-client/badge.svg)
 
 
 ## Introduction
