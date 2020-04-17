@@ -1,6 +1,6 @@
 # Line Notify Client
 
-[<img src="https://img.shields.io/github/workflow/status/maximillianus/line-notify-python-client/Python%20application">]()
+![line-notify-python-client](https://github.com/maximillianus/line-notify-python-client/workflows/Python-application/badge.svg)
 
 
 ## Introduction
