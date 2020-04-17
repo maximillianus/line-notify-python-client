@@ -6,6 +6,7 @@ import requests
 from dotenv import load_dotenv
 load_dotenv()
 
+
 from src.config import LINE_NOTIFY_BASE_URL
 
 
@@ -40,6 +41,7 @@ class LineNotify:
             'status_code': r.status_code,
             'body': r.json()
         }
+        print(resp)
         return resp
 
 def main():
